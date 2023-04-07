@@ -219,3 +219,10 @@ p{
         display: none;
     }
 }
+/* CSS for smaller screens */
+@media screen and (max-width: 480px) {
+  #my-video {
+    width: 100%;
+    height: auto;
+  }
+}
